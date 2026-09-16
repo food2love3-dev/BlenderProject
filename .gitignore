@@ -1,0 +1,49 @@
+__pycache__/
+*.pyc
+
+.blender/
+.cache/
+
+*.tmp
+*.bak
+
+.vscode/
+.idea/
+
+renders/temp/
+
+# Blender temporary files
+*.blend1
+*.blend2
+*.blend3
+*.blend4
+*.blend5
+
+# Blender cache
+/cache/
+/caches/
+/__pycache__/
+
+# Python
+*.pyc
+
+# OS
+Thumbs.db
+.DS_Store
+
+# Render outputs
+/renders/*
+
+# Temporary exports
+/tmp/
+/temp/
+
+# IDE
+.vscode/
+
+# Local environment
+.env
+.env.*
+
+# Logs
+*.log
