@@ -1,0 +1,26 @@
+# Dependencies / build
+node_modules/
+dist/
+*.tsbuildinfo
+
+# Logs
+*.log
+npm-debug.log*
+
+# Environment
+.env
+.env.*
+
+# Editors / OS
+.vscode/*
+!.vscode/extensions.json
+.idea/
+Thumbs.db
+.DS_Store
+
+# Blender backups / caches
+*.blend1
+*.blend2
+__pycache__/
+*.pyc
+blender/renders/

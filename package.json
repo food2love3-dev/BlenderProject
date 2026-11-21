@@ -1,0 +1,12 @@
+{
+  "name": "magic-circle-rpg",
+  "private": true,
+  "workspaces": ["game"],
+  "engines": { "node": ">=22" },
+  "scripts": {
+    "dev": "npm run dev -w game",
+    "build": "npm run build -w game",
+    "typecheck": "npm run typecheck -w game",
+    "preview": "npm run preview -w game"
+  }
+}

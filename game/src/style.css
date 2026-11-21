@@ -1,0 +1,23 @@
+html,
+body {
+  margin: 0;
+  height: 100%;
+  overflow: hidden;
+  background: #0b0a09;
+}
+
+#game {
+  display: block;
+  width: 100vw;
+  height: 100vh;
+}
+
+#debug {
+  position: fixed;
+  top: 8px;
+  right: 12px;
+  font: 12px/1.4 ui-monospace, Consolas, monospace;
+  color: #c9bfa8;
+  white-space: pre;
+  pointer-events: none;
+}

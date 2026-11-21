@@ -1,5 +1,6 @@
 > [!CAUTION]
 > 이 설계안은 AI와 함께 작성된 기획 자료를 바탕으로 한 초안입니다. 수치, 규칙, 용어에 오류나 모순이 있을 수 있으므로 구현 전에 검토가 필요합니다.
+> 엔진은 Unity 대신 **웹 프로토타입(Three.js + TypeScript)** 으로 바뀌었습니다. 본문의 Unity 전용 항목(ScriptableObject, URP, New Input System)은 웹 환경에 맞게 다시 설계할 예정입니다.
 
 # 구현 설계안 — 마법진 조립 실시간 액션 RPG
 
